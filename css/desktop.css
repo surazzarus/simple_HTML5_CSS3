@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1141px) {
+	/* ------ Body ------ */
+	body {
+		background-image: url("../images/body-repeat.png");
+		background-repeat: repeat-x;
+	}
+
+	/* ------ Wrapper ------ */
+	#wrapper {
+		padding: 25px 0;
+	}
+
+	/* ------ Container ------ */
+	#container {
+		margin: 2em auto;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	/* ------ Header ------ */
+	header {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+
+	
+
+	/* ------ Navigation ------ */
+
+
+	/* ------ Content ------ */
+	#content ul.clubPics li a:hover img{
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+	}
+	#content ul.clubPics li a img {
+		-webkit-transition: transform .3s ease-in-out;
+		transition: transform .3s ease-in-out;
+	}
+
+	/* ------ Figure ------ */
+
+
+	/* ------ Footer ------ */
+
+}

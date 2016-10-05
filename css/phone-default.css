@@ -1,0 +1,183 @@
+/* ------ Prevents phone from resizing in landscape mode ------ */
+html { -webkit-text-size-adjust: none; }
+
+/* ------ apply a natural box layout model to all elements ------ */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* ------ Body ------ */
+body{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* ------ Container ------ */
+#container {
+	background-color: #CCCCCC;
+	min-width: 320px;
+	max-width: 1140px;
+}
+
+/* ------ Header ------ */
+header {
+	background-color: #31708F;
+}
+
+header .headings {
+	font-family: 'Overlock SC', cursive;
+	color: #fff;
+	padding: .5em 2%;
+}
+
+header h1 {
+	font-size: 2em;
+}
+header h2 {
+	font-size: 1.04em;
+	padding: .5em 0;
+}
+
+/* ------ Social icons ------ */
+header ul.icons {
+	float: right;
+	padding-right: 2%;
+}
+header ul.icons li {
+	float: left;
+	margin-top: 1em;
+}
+header ul.icons li a {
+	color: #ccc;
+	margin: 5%;
+}
+header ul.icons li a:hover {
+	color: #fff;
+}
+
+
+/* ------ Navigation ------ */
+nav {  }
+
+nav ul {
+	padding: 1em 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	width: 46%;
+	margin: 0 2%;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	font-weight: 600;
+	margin: .2em 0;
+	padding: .6em 0;
+	text-decoration: none;
+	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 16px;
+}
+
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* ------ Content ------ */
+#content {
+	background-color: #E2E2E2;
+	padding: .5em 2%;
+}
+
+#content h1 {
+	font-family: 'Overlock SC', cursive;
+	font-size: 1.8em;
+	padding-top: .5em;
+	color: #5b0000;
+	font-weight: 600;
+}
+
+#content hr {
+	height: 8px;
+	border: 0;
+	border-radius: 4px;
+	background: -moz-linear-gradient(left,  rgba(109,0,25,1) 0%, rgba(109,0,25,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(109,0,25,1) 0%,rgba(109,0,25,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(109,0,25,1) 0%,rgba(109,0,25,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#006d0019',GradientType=1 ); /* IE6-9 */
+
+}
+
+#content article {
+	padding-bottom: 2em;
+	border-bottom: dotted 2px #ccc;
+}
+
+#content article h2 {
+	font-weight: 600;
+	font-size: 1.2em;
+	padding-top: 2em;
+	color: #773300;
+}
+
+#content article p {
+	font-size: 1em;
+	padding: .3em 0 .1em .1em;
+	color: #763400;
+	line-height: 1.5em;
+}
+
+#content a.top {
+	background-color: #aa6d00;
+	font-size: .8em;
+	font-weight: 600;
+	color: #Fff;
+	padding: .3em 1em;
+	margin-top: .3em;
+	float: right;
+	text-decoration: none;
+	border-top-left-radius: 15px;
+}
+
+#content a {
+	color: #5c0000;
+	-webkit-transition: color 0.4s ease;
+	transition: color 0.4s ease;
+	text-decoration: none;
+}
+#content a:hover {
+	color: #d00000;
+	text-decoration: underline;
+}
+
+/* ------ Scaling Images ------ */
+#content ul.clubPics li {
+	float: left;
+	padding: 2%;
+	width: 25%;
+}
+
+#content ul.clubPics li a img {
+	width: 100%;
+	border: 1px solid #777;
+}
+
+article {
+	/*--- box-shadow: 5px 5px 10px rgba(0,0,0,0.3); ---*/
+}
+
+/* ------ Footer ------ */
+footer {
+	clear: both;
+	text-align: center;
+	padding: 1.2em 0;
+	background-color: #737373;
+	color: #fff;
+	font-size: .8em;
+}
+
+/* ------ Other ------ */
+.clear {
+	clear: both;
+}

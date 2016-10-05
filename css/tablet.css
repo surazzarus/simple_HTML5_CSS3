@@ -1,0 +1,60 @@
+@media only screen and (min-width: 600px) {
+	/* ------ Body ------ */
+	body {
+
+	}
+
+	/* ------ Container ------ */
+	#container {
+
+	}
+
+	/* ------ Header ------ */
+	header ul.icons li a {
+		-webkit-transition: color .5s ease; /* Chrome-Safari */
+		transition: color .5s ease;
+	}
+
+	header h1 {
+
+	}
+
+
+	/* ------ Navigation ------ */
+	nav {
+		background-color: #31708f;
+	}
+	nav ul {
+		padding: 0;
+		margin-left: 2%;
+	}
+	nav ul li {
+		width: auto;
+		margin: 0;
+	}
+	nav ul li a {
+		/** remove the phone effects **/
+		margin: 0;
+		border-radius: 0;
+		/** add effects for the tablet **/
+		padding: 1em .5em;
+		font-weight: 300;
+		font-size: .8em;
+		border-right: solid 1px rgba(0,0,0,0.2);
+		border-left: solid 1px rgba(255,255,255,0.2);
+	}
+
+	nav ul li a {
+		-webkit-transition: background-color .5s ease; /* Chrome-Safari */
+		transition: background-color .5s ease;
+	}
+
+	/* ------ Content ------ */
+
+
+	/* ------ Footer ------ */
+	.clear {
+		clear: both;
+	}
+}
+
